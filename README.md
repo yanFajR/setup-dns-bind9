@@ -1,6 +1,8 @@
 # setup-dns-bind9
 konfigurasi bind9 ubuntu 18.04
 
+## lokasi file konfig
+/etc/bind/
 
 ## install
 sudo apt install bind9
