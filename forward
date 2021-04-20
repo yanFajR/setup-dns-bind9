@@ -1,0 +1,17 @@
+;
+; BIND data file for local loopback interface
+;
+$ TL	604800
+@	IN	SOA	ryan.fajri. root.ryan.fajri. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	      IN	NS	ryan.fajri.
+@	      IN	A	  192.168.43.77
+www     IN	A	  192.168.43.77
+ftp	    IN	A	  192.168.43.77
+mail    IN  A   192.168.43.77
+host    IN  A   192.168.43.77
