@@ -2,17 +2,17 @@
 konfigurasi bind9 ubuntu 18.04
 
 
-#Install
+## install
 sudo apt install bind9
 
-#Start
+## start
 systemctl start bind9
 
-#Status
+## status
 systemctl status bind9
 
-#Stop
+## stop
 systemctl sop bind9
 
-#Restart
+## restart
 systemctl restart bind9
